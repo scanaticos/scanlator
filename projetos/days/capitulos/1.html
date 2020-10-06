@@ -12,28 +12,23 @@
 <body>
     <div class="container-fluid">
         <div class="row" id="header">
-            <div class="col-2" id="div-logo">
-                <img src="./../../../images/logo.png" alt="LOGO" id="logo">
+            <div class="col">
+                <a href="./../../../home.html"><img src="./../../../images/logo.png" alt="LOGO" id="logo"></a>
             </div>
-            <div class="col-2">
-                <ul>
-                    <li><a href="./../../../home.html">Home</a></li>
-                    <li><a href="./../../../projetos.html">Projetos</a></li>
-                </ul>
-            </div>
-            <div class="col-5"></div>
-            <div class="col" style="padding: 0px">
-                <input type="search" id="input-procurar" class="form-control">
-            </div>
-            <div class="col-1">
-                <div id="btn-procurar">
-                    <img src="./../../../images/icons/procurar.svg" alt="" id="procurar">
-                </div>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="font-size: 1.8em;">
+                      <a class="nav-item nav-link" href="./../../../home.html" style="margin-right: 20px;">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="./../../../projetos.html" style="margin-right: 20px;">Projetos</a>
+                    </div>
+                  </div>
+              </nav>
         </div>
         <div class="row mt-5 mb-5">
             <div class="col">
-                <img class="rounded mx-auto d-block" src="./../../../images/capas_leitor/days.png" alt="">
                 <img class="rounded mx-auto d-block" src="https://scontent.fpav1-1.fna.fbcdn.net/v/t1.0-9/120048147_108674927659979_2899145206309650469_n.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=M2rdFXaxjKMAX8QNO56&_nc_ht=scontent.fpav1-1.fna&oh=11dcbbac1f92fba6c51a3f7ce5f98bb3&oe=5F928F5C" alt="">
                 <img class="rounded mx-auto d-block" src="https://scontent.fpav1-1.fna.fbcdn.net/v/t1.0-9/s960x960/120126506_108674954326643_8765559332467003349_o.jpg?_nc_cat=102&_nc_sid=8024bb&_nc_ohc=ive5UvBFThsAX-I_9wI&_nc_ht=scontent.fpav1-1.fna&tp=7&oh=652799bed8442c6e559eb23c3ff536ef&oe=5F91068E" alt="">
                 <img class="rounded mx-auto d-block" src="https://scontent.fpav1-1.fna.fbcdn.net/v/t1.0-9/s960x960/120132787_108674920993313_5334753739171362435_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=q5QcR7vuYIsAX-pzGLe&_nc_ht=scontent.fpav1-1.fna&tp=7&oh=39faacd238445c5e2481c48fe39d5aa9&oe=5F933A78" alt="">
@@ -104,5 +99,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
 </body>
 </html>
