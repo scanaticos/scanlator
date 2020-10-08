@@ -78,3 +78,7 @@ h5{
         max-width: 300px;
     }
 }
+
+.dropdown-item:hover{
+    background-color: rgb(38, 167, 253);
+}
