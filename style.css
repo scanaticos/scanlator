@@ -72,3 +72,5 @@ h5{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+img{ max-width: 320px;}
