@@ -8,5 +8,13 @@ function addDropList(){
         capName.href = `./${c}.html` 
         dropMenu.appendChild(capName)
     }
+
+    for(let c = 45; c <= 45; c++){
+        const capName  = document.createElement("a")
+        capName.className = "dropdown-item"
+        capName.innerHTML = `Cap. ${c}`
+        capName.href = `./${c}.html` 
+        dropMenu.appendChild(capName)
+    }
 }
 addDropList()
