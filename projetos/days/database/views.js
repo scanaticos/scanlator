@@ -12,6 +12,7 @@ function mostrarVisitantes(all){
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("days").once("value").then(async function(snapshot) {
         const url = window.location.href
+        console.log(url.slice(0,45))
         if(url.slice(0, 45) == "https://scanaticos.site/projetos/days/capitulos"){
             
         if(!!document.getElementById("views")){
