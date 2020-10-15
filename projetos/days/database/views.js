@@ -30,6 +30,6 @@ function test(){
     const url = window.location.href
     const view = document.getElementById("views")
 
-    view.innerHTML = `Views: ${url.slice(0, 45) == "https://scanaticos.site/projetos/days/capitulos"}`
+    view.innerHTML = `Views: ${url.slice(0, 45)} == https://scanaticos.site/projetos/days/capitulos`
 }
 test()
