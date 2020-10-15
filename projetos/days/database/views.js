@@ -6,7 +6,7 @@ function visitou(visitante){
 function mostrarVisitantes(all){
     const visitantes = all
     const view = document.getElementById("views")
-    const url = window.location.href
+
     view.innerHTML = `Views: ${visitantes}`
 }
 
