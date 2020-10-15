@@ -11,9 +11,8 @@ function mostrarVisitantes(all){
 
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("days").once("value").then(async function(snapshot) {
-        const url = window.location.href.split().slice(0,30)
-
-        if(url.slice(0, 47) == "https://scanaticos.site/projetos/days/capitulos"){
+        const url = window.location.href
+        if(url.slice(0, 45) == "https://scanaticos.site/projetos/days/capitulos"){
             
         if(!!document.getElementById("views")){
             await visitou(snapshot.val())
