@@ -13,7 +13,7 @@ function mostrarVisitantes(all){
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("days").once("value").then(async function(snapshot) {
         const url = window.location.href
-        /*        if(url.slice(0, 45) == "https://scanaticos.site/projetos/days/capitulos"){
+        if(url.slice(0, 45) == "https://scanaticos.site/projetos/days/capitul"){
             
         if(!!document.getElementById("views")){
             await visitou(snapshot.val())
@@ -21,15 +21,6 @@ document.addEventListener("DOMContentLoaded", async function (){
         }else{
             await visitou(snapshot.val())
         }
-        }  */
+        }
     })
 })
-
-
-function test(){
-    const url = window.location.href
-    const view = document.getElementById("views")
-
-    view.innerHTML = `Views: ${url.slice(0, 47)} == https://scanaticos.site/projetos/days/capitulos`
-}
-test()
