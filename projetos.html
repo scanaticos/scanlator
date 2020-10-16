@@ -15,17 +15,27 @@
                 <a href="./home.html"><img src="./images/logo.png" alt="LOGO" id="logo"></a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav" style="font-size: 1.8em;">
-                      <a class="nav-item nav-link" href="./home.html" style="margin-right: 20px;">Home <span class="sr-only">(current)</span></a>
-                      <a class="nav-item nav-link" href="./projetos.html" style="margin-right: 20px;">Projetos</a>
-                    </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav" style="font-size: 1.8em;" id="navbar-nav">
                   </div>
-              </nav>
+                </div>
+            </nav>
+      </div>
+      <div class="row mb-4 d-flex justify-content-end" style="border-bottom: 1px solid black;">
+          <div id="redes-sociais-div" class="col d-flex justify-content-end">
+          </div>
+      </div>
+      <div class="row mt-4 mb-4" style="border-bottom: 1px solid #000;">
+        <div class="col">
+          <svg style="margin: 0px 12px 10px" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+          </svg>
+          <h3 style="display: inline-block; margin-bottom: 20px;">Projetos</h3>
         </div>
+      </div>
         <div class="row">
             <div class="col" id="cards-div">
                 <section margin="10px 0px">
@@ -59,5 +69,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!--Meus componemts-->
+
+        <!--Menu-->
+        <script src="./components/menu.js"></script>
+    
+        <!--Redes Sociais-->
+            <script src="./components/redes_sociais.js"></script>
 </body>
 </html>
