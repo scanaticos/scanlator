@@ -13,7 +13,7 @@ function mostrarVisitantes(all){
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("views").child("shangrila_frontier").once("value").then(async function(snapshot) {
         const url = window.location.href
-        if(url.slice(0, 60) == "https://scanaticos.site/projetos/shangrila_frontier/capitul"){
+        if(url.slice(0, 45) == "https://scanaticos.site/projetos/shangrila_frontier/capitul"){
             
         if(!!document.getElementById("views")){
             await visitou(snapshot.val())
