@@ -4,9 +4,9 @@ async function add1(valores){
     const novoAcumulador = await valores.acumulador+1
     const novaNota = await novoAcumulador/novaMedia
 
-    await firebase.database().ref("rating").child("shangrila_frontier").child("media").set(novaMedia)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("nota").set(novaNota)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("acumulador").set(novoAcumulador)
+    await firebase.database().ref("rating").child("tower_into").child("media").set(novaMedia)
+    await firebase.database().ref("rating").child("tower_into").child("nota").set(novaNota)
+    await firebase.database().ref("rating").child("tower_into").child("acumulador").set(novoAcumulador)
 
     alert("Obrigado por votar!")
 
@@ -17,7 +17,7 @@ async function add1(valores){
 }
 
 document.getElementById("star-1").addEventListener("click", function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(snapshot => {
+    firebase.database().ref("rating").child("tower_into").once("value").then(snapshot => {
         add1(snapshot.val())
     })
 })
@@ -30,9 +30,9 @@ async function add2(valores){
     const novoAcumulador = await valores.acumulador+2
     const novaNota = await novoAcumulador/novaMedia
 
-    await firebase.database().ref("rating").child("shangrila_frontier").child("media").set(novaMedia)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("nota").set(novaNota)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("acumulador").set(novoAcumulador)
+    await firebase.database().ref("rating").child("tower_into").child("media").set(novaMedia)
+    await firebase.database().ref("rating").child("tower_into").child("nota").set(novaNota)
+    await firebase.database().ref("rating").child("tower_into").child("acumulador").set(novoAcumulador)
 
     alert("Obrigado por votar!")
 
@@ -41,7 +41,7 @@ async function add2(valores){
 }
 
 document.getElementById("star-2").addEventListener("click", function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(snapshot => {
+    firebase.database().ref("rating").child("tower_into").once("value").then(snapshot => {
         add2(snapshot.val())
     })
 })
@@ -54,9 +54,9 @@ async function add3(valores){
     const novoAcumulador = await valores.acumulador+3
     const novaNota = await novoAcumulador/novaMedia
 
-    await firebase.database().ref("rating").child("shangrila_frontier").child("media").set(novaMedia)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("nota").set(novaNota)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("acumulador").set(novoAcumulador)
+    await firebase.database().ref("rating").child("tower_into").child("media").set(novaMedia)
+    await firebase.database().ref("rating").child("tower_into").child("nota").set(novaNota)
+    await firebase.database().ref("rating").child("tower_into").child("acumulador").set(novoAcumulador)
 
     alert("Obrigado por votar!")
 
@@ -65,7 +65,7 @@ async function add3(valores){
 }
 
 document.getElementById("star-3").addEventListener("click", function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(snapshot => {
+    firebase.database().ref("rating").child("tower_into").once("value").then(snapshot => {
         add3(snapshot.val())
     })
 })
@@ -78,9 +78,9 @@ async function add4(valores){
     const novoAcumulador = await valores.acumulador+4
     const novaNota = await novoAcumulador/novaMedia
 
-    await firebase.database().ref("rating").child("shangrila_frontier").child("media").set(novaMedia)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("nota").set(novaNota)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("acumulador").set(novoAcumulador)
+    await firebase.database().ref("rating").child("tower_into").child("media").set(novaMedia)
+    await firebase.database().ref("rating").child("tower_into").child("nota").set(novaNota)
+    await firebase.database().ref("rating").child("tower_into").child("acumulador").set(novoAcumulador)
 
     alert("Obrigado por votar!")
 
@@ -89,7 +89,7 @@ async function add4(valores){
 }
 
 document.getElementById("star-4").addEventListener("click", function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(snapshot => {
+    firebase.database().ref("rating").child("tower_into").once("value").then(snapshot => {
         add4(snapshot.val())
     })
 })
@@ -102,9 +102,9 @@ async function add5(valores){
     const novoAcumulador = await valores.acumulador+5
     const novaNota = await novoAcumulador/novaMedia
 
-    await firebase.database().ref("rating").child("shangrila_frontier").child("media").set(novaMedia)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("nota").set(novaNota)
-    await firebase.database().ref("rating").child("shangrila_frontier").child("acumulador").set(novoAcumulador)
+    await firebase.database().ref("rating").child("tower_into").child("media").set(novaMedia)
+    await firebase.database().ref("rating").child("tower_into").child("nota").set(novaNota)
+    await firebase.database().ref("rating").child("tower_into").child("acumulador").set(novoAcumulador)
 
     alert("Obrigado por votar!")
 
@@ -113,13 +113,13 @@ async function add5(valores){
 }
 
 document.getElementById("star-5").addEventListener("click", function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(snapshot => {
+    firebase.database().ref("rating").child("tower_into").once("value").then(snapshot => {
         add5(snapshot.val())
     })
 })
 
 document.addEventListener("DOMContentLoaded", async function (){
-    firebase.database().ref("rating").child("shangrila_frontier").once("value").then(async function(snapshot) {
+    firebase.database().ref("rating").child("tower_into").once("value").then(async function(snapshot) {
         const notaText = document.getElementById("nota-text")
         notaText.innerHTML = `Nota: ${Number(snapshot.val().nota).toFixed(2)} (${snapshot.val().media} Votos)`
     })
