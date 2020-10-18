@@ -13,7 +13,7 @@ function mostrarVisitantes(all){
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("views").child("game_club").once("value").then(async function(snapshot) {
         const url = window.location.href
-        if(url.slice(0, 53) == "https://scanaticos.site/projetos/game_club/capitulos.html"){
+        if(url.slice(0, 52) == "https://scanaticos.site/projetos/game_club/capitulos"){
             
         if(!!document.getElementById("views")){
             await visitou(snapshot.val())
