@@ -13,7 +13,7 @@ function mostrarVisitantes(all){
 document.addEventListener("DOMContentLoaded", async function (){
     firebase.database().ref("views").child("tower_into").once("value").then(async function(snapshot) {
         const url = window.location.href
-        if(url.slice(0, 45) == "https://scanaticos.site/projetos/tower_into_the_clouds/capitulos"){
+        if(url.slice(0, 64) == "https://scanaticos.site/projetos/tower_into_the_clouds/capitulos"){
             
         if(!!document.getElementById("views")){
             await visitou(snapshot.val())
