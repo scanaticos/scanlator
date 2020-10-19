@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body, html{
+    padding: 0px; 
+    width: 100%;
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -15,11 +20,25 @@ ul{
 
 #header{
     background-color: black;
-    padding: 0px 10px;
     display: flex;
     align-items: center;
+    width: 104%;
+    margin: 0px;
+    overflow: hidden;
 }
-
+.container-fluid{
+    padding: 0px;
+    width: 100%;
+}
+#disqus_thread{
+    width: 80vh;
+}
+#disqus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto
+}
 #logo{
     width: 200px
 }
