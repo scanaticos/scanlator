@@ -22,7 +22,7 @@ ul{
     background-color: black;
     display: flex;
     align-items: center;
-    width: 104%;
+    width: 100%;
     margin: 0px;
     overflow: hidden;
 }
