@@ -106,3 +106,7 @@ h5{
 .dropdown-item:hover{
     background-color: #26A7FD;
 }
+
+#disqus_thread{
+    max-width: 100%;
+}
