@@ -22,8 +22,6 @@ ul{
     background-color: black;
     display: flex;
     align-items: center;
-    width: 100%;
-    margin: 0px;
     overflow: hidden;
 }
 .container-fluid{
@@ -94,7 +92,14 @@ h5{
 
 @media screen and (max-width: 800px){
     img{
-        max-width: 300px;
+        max-width: 50%;
+    }
+    .container-fluid{
+        width: 100%;
+        overflow: hidden;
+    }
+    html, body{
+        width: auto;
     }
 }
 
