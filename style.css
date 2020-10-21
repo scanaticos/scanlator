@@ -92,7 +92,7 @@ h5{
 
 @media screen and (max-width: 800px){
     img{
-        max-width: 50%;
+        max-width: 300px;
     }
     .container-fluid{
         width: 100%;
