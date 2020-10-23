@@ -28,15 +28,7 @@ ul{
     padding: 0px;
     width: 100%;
 }
-#disqus_thread{
-    width: 80vh;
-}
-#disqus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: auto
-}
+
 #logo{
     width: 200px
 }
@@ -105,8 +97,4 @@ h5{
 
 .dropdown-item:hover{
     background-color: #26A7FD;
-}
-
-#disqus_thread{
-    max-width: 100%;
 }
