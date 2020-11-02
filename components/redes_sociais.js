@@ -10,7 +10,7 @@ function criarRedeSociais(){
     //discord
     const discord = document.createElement("a")
     discord.innerHTML = `<img style="width: 45px; height: 45px; margin: 10px 20px" src="https://scontent.fpav1-1.fna.fbcdn.net/v/t1.0-9/121444230_125664755960996_2471654480751919961_n.jpg?_nc_cat=107&_nc_sid=8024bb&_nc_ohc=Uzsof57oQtQAX_D-uo7&_nc_ht=scontent.fpav1-1.fna&oh=cf574992bd6086359f4fe72760ee0512&oe=5FADE1CF" alt="">`
-    discord.href = "https://www.facebook.com/Scanaticos-102594551621681/"
+    discord.href = "https://discord.gg/Nv6SFAZg"
     discord.target = "_blank"
 
     divPai.appendChild(facebook)
