@@ -82,6 +82,10 @@ h5{
     flex-wrap: wrap;
 }
 
+#disqus_thread{
+    color: black
+}
+
 @media screen and (max-width: 800px){
     img{
         max-width: 300px;
