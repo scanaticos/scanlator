@@ -81,7 +81,7 @@ h5{
     flex-wrap: wrap;
 }
 
-#disqus_thread{
+#disqus_thread a{
     color: black
 }
 
