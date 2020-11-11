@@ -14,7 +14,7 @@ function addDropList(){
         }
     }
 
-    for(let c = 45; c <= 48; c++){
+    for(let c = 45; c <= 49; c++){
         const capName  = document.createElement("a")
         capName.className = "dropdown-item"
         capName.innerHTML = `Cap. ${c}`
