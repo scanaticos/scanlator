@@ -1,7 +1,7 @@
 function addDropList(){
     const dropMenu = document.getElementById("dropdown-menu")
 
-    for(let c = 21; c <= 23; c++){
+    for(let c = 21; c <= 24; c++){
         const capName  = document.createElement("a")
         capName.className = "dropdown-item"
         capName.innerHTML = `Cap. ${c}`
