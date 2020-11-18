@@ -2,7 +2,7 @@ function addDropList(){
     const dropMenu = document.getElementById("dropdown-menu")
     //const dropdownMenuLink = document.getElementById("dropdownMenuLink")
 
-    for(let c = 1; c <= 6; c++){
+    for(let c = 1; c <= 7; c++){
         const capName  = document.createElement("a")
         capName.className = "dropdown-item"
         capName.innerHTML = `Cap. ${c}`
