@@ -1,6 +1,6 @@
 function visitou(visitante){
     const novaVisita = Number(visitante)+1
-    firebase.database().ref("views").child('post-apocalyptic').set(novaVisita)
+    firebase.database().ref("views").child('hell_mode').set(novaVisita)
 }
 
 function mostrarVisitantes(all){
