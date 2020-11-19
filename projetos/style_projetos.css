@@ -8,3 +8,9 @@
 img{
     max-width: 1200px;
 }
+
+@media screen and (max-width: 800px){
+    img{
+        max-width: 300px;
+    }
+}
