@@ -85,10 +85,6 @@ h5{
     color: black
 }
 
-img{
-    max-width: 1300px;
-}
-
 @media screen and (max-width: 800px){
     img{
         max-width: 300px;
